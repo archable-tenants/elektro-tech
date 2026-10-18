@@ -1,0 +1,13 @@
+# d-1-01: written by the Architect for D-1; it failed on the bundle active when the desire was drafted.
+id: d-1-01
+desire: D-1
+turns:
+  - customer: Hi, can you help me find something?
+expect:
+  - judge:
+      question: Does the assistant's reply end by thanking the customer for choosing the store?
+      min: 0.6
+fixtures:
+  customer:
+    phone: "+995555000111"
+    age_verified: false
